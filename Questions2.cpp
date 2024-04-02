@@ -17,7 +17,7 @@ int linear_search_last(const std::vector<Item_Type>& items, const Item_Type& tar
 }
 
 int main() {
-    std::vector<int> numbers = {1, 5, 5, 5, 5};
+    std::vector<int> numbers = {1, 5, 3, 2, 5};
     int target = 5;
 
     int last_position = linear_search_last(numbers, target);
